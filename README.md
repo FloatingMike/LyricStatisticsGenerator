@@ -101,7 +101,7 @@ To get a local copy up and running follow these simple steps.
   ```sh
   dotnet run "Depeche Mode"
   ```
-  You will then be prompted to select an artist name from a list of potential matches, the most likely match will be the first item with the identifier "0" however if you do not find the result you want, enter no value and you will be prompted to enter a new artist name to try again.
+  You will then be prompted to select an artist name from a list of potential matches, the most likely match will be the first item with the identifier "0" however if you do not find the result you want, enter no value and you will be prompted to input a new artist name to try again.
 
   If the artist has previously been searched successfully the result will be calculated from locally cached versions of the lyrics otherwise depending on the artist selected it may take many minutes to generate the output.
 
