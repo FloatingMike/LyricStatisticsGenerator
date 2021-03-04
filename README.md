@@ -1,10 +1,4 @@
-<!-- PROJECT SHIELDS -->
-
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
+<!-- PROJECT TITLE -->
 <br />
 <p align="center">
   <h3 align="center">Artist Lyric Statistics</h3>
@@ -50,12 +44,8 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]]()
 
 ### Built With
 
@@ -91,9 +81,6 @@ To get a local copy up and running follow these simple steps.
    ```
    (Alternatively you can switch into the AireLogicTest.Console directory and just use `dotnet run` from there)
 
-
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -105,13 +92,10 @@ To get a local copy up and running follow these simple steps.
 
   If the artist has previously been searched successfully the result will be calculated from locally cached versions of the lyrics otherwise depending on the artist selected it may take many minutes to generate the output.
 
-
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/MikeVerius/Aire/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -124,12 +108,10 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
 
 <!-- CONTACT -->
 ## Contact
@@ -138,10 +120,4 @@ Michael Hardman - [@MikeDoesCode](https://twitter.com/MikeDoesCode) - Mike.Hardm
 
 Project Link: [https://github.com/MikeVerius/Aire](https://github.com/MikeVerius/Aire)
 
-
-[issues-shield]: https://img.shields.io/github/issues/MikeVerius/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/MikeVerius/repo/issues
-[license-shield]: https://img.shields.io/github/license/MikeVerius/repo.svg?style=for-the-badge
-[license-url]: https://github.com/MikeVerius/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/MikeVerius
