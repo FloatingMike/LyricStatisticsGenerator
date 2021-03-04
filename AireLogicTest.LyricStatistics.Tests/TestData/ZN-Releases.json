@@ -1,0 +1,865 @@
+{
+  "ipis": [],
+  "life-span": {
+    "begin": "1998",
+    "end": null,
+    "ended": false
+  },
+  "begin_area": {
+    "name": "Munich",
+    "id": "89bbbab6-72de-43eb-81ba-e620ab207008",
+    "disambiguation": "",
+    "type-id": null,
+    "sort-name": "Munich",
+    "type": null
+  },
+  "disambiguation": "German techno/electro project",
+  "end_area": null,
+  "country": "DE",
+  "gender-id": null,
+  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+  "name": "Zombie Nation",
+  "type": "Group",
+  "begin-area": {
+    "name": "Munich",
+    "id": "89bbbab6-72de-43eb-81ba-e620ab207008",
+    "disambiguation": "",
+    "type-id": null,
+    "sort-name": "Munich",
+    "type": null
+  },
+  "sort-name": "Zombie Nation",
+  "isnis": [],
+  "end-area": null,
+  "releases": [
+    {
+      "packaging": "Jewel Case",
+      
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "1999-10-08",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "title": "Leichenschmaus",
+      "barcode": "718752952828",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "country": "DE",
+      "status": "Official",
+      "release-events": [
+        {
+          "date": "1999-10-08",
+          "area": {
+            "type": null,
+            "sort-name": "Germany",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "disambiguation": "",
+            "name": "Germany"
+          }
+        }
+      ],
+      "id": "afbea7d1-835f-4ff8-8027-ed352041f06c"
+    },
+    {
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "date": "1999-11-08",
+      "packaging": null,
+      "text-representation": {
+        "language": "deu",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "Germany",
+            "type": null,
+            "name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ]
+          },
+          "date": "1999-11-08"
+        }
+      ],
+      "id": "3626a8f1-e981-43f0-99e5-3d7e50362b5c",
+      "status": "Official",
+      "country": "DE",
+      "packaging-id": null,
+      "title": "Kernkraft 400",
+      "barcode": "731456142821"
+    },
+    {
+      "status": "Official",
+      "packaging-id": null,
+      "country": "DE",
+      "barcode": "718752952866",
+      "title": "Leichenschmaus",
+      "release-events": [
+        {
+          "date": "1999",
+          "area": {
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany",
+            "disambiguation": "",
+            "type": null,
+            "sort-name": "Germany"
+          }
+        }
+      ],
+      "id": "cdb5c7c8-2b02-469a-9871-121b314ef804",
+      "date": "1999",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "packaging": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "quality": "normal"
+    },
+    {
+      "id": "3ff6d932-841a-4d52-9744-03e73ebc69df",
+      "release-events": [
+        {
+          "date": "1999",
+          "area": {
+            "type": null,
+            "sort-name": "Germany",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "title": "Kernkraft 400",
+      "barcode": null,
+      "packaging-id": null,
+      "country": "DE",
+      "status": "Official",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "packaging": null,
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "1999"
+    },
+    {
+      "release-events": [
+        {
+          "date": "1999",
+          "area": {
+            "type": null,
+            "sort-name": "Germany",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "type-id": null,
+            "name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "id": "cafb279f-774d-44b1-bf8d-97a37fa6a2d3",
+      "status": "Official",
+      "title": "Zombie Nation",
+      "barcode": null,
+      "country": "DE",
+      "packaging-id": null,
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "packaging": null,
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "1999"
+    },
+    {
+      "quality": "normal",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging": "Slim Jewel Case",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "date": "1999",
+      "release-events": [
+        {
+          "date": "1999",
+          "area": {
+            "sort-name": "Italy",
+            "type": null,
+            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+            "disambiguation": "",
+            "name": "Italy",
+            "iso-3166-1-codes": [
+              "IT"
+            ],
+            "type-id": null
+          }
+        }
+      ],
+      "id": "9e39f2c8-abe9-4552-90f5-a7ee69c04dc7",
+      "title": "Kernkraft 400 E.P.",
+      "barcode": "8018139010458",
+      "country": "IT",
+      "packaging-id": "36327bc2-f691-3d66-80e5-bd03cec6060a",
+      "status": "Official"
+    },
+    {
+      "id": "584684f3-c036-447b-9a01-5b32284784a3",
+      "release-events": [
+        {
+          "area": {
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "name": "United States",
+            "type": null,
+            "sort-name": "United States"
+          },
+          "date": "2000-05-30"
+        }
+      ],
+      "country": "US",
+      "packaging-id": null,
+      "title": "Kernkraft 400",
+      "barcode": "689289902726",
+      "status": "Official",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "date": "2000-05-30",
+      "text-representation": {
+        "script": "Latn",
+        "language": "deu"
+      },
+      "packaging": null
+    },
+    {
+      "status": "Official",
+      "country": "GB",
+      "packaging-id": "36327bc2-f691-3d66-80e5-bd03cec6060a",
+      "title": "Kernkraft 400",
+      "barcode": "5026535011132",
+      "id": "754d9a9a-70c6-4f1b-8f51-4cbc9e06d789",
+      "release-events": [
+        {
+          "date": "2000-09-18",
+          "area": {
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "type-id": null,
+            "sort-name": "United Kingdom",
+            "type": null
+          }
+        }
+      ],
+      "date": "2000-09-18",
+      "text-representation": {
+        "language": "deu",
+        "script": "Latn"
+      },
+      "packaging": "Slim Jewel Case",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "quality": "normal"
+    },
+    {
+      "status": "Official",
+      "title": "Kernkraft 400",
+      "barcode": null,
+      "packaging-id": null,
+      "country": "AU",
+      "id": "1756c996-6dcc-465d-9851-6803dbf2d378",
+      "release-events": [
+        {
+          "date": "2000-10-09",
+          "area": {
+            "iso-3166-1-codes": [
+              "AU"
+            ],
+            "type-id": null,
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+            "disambiguation": "",
+            "name": "Australia",
+            "type": null,
+            "sort-name": "Australia"
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "deu"
+      },
+      "packaging": null,
+      "date": "2000-10-09",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal"
+    },
+    {
+      "status": "Official",
+      "packaging-id": null,
+      "country": "AU",
+      "title": "Kernkraft 400 / Die Blechtrommel",
+      "barcode": null,
+      "id": "5e7efbbe-716d-4b59-ae9d-bbb72637c757",
+      "release-events": [
+        {
+          "date": "2000",
+          "area": {
+            "sort-name": "Australia",
+            "type": null,
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+            "disambiguation": "",
+            "name": "Australia",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "AU"
+            ]
+          }
+        }
+      ],
+      "date": "2000",
+      "packaging": null,
+      "text-representation": {
+        "script": "Latn",
+        "language": "mul"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "quality": "normal"
+    },
+    {
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "date": "2000",
+      "packaging": null,
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "date": "2000",
+          "area": {
+            "type": null,
+            "sort-name": "Germany",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "id": "c6d0b57c-29dc-47e8-a993-8ad5acbbab77",
+      "country": "DE",
+      "packaging-id": null,
+      "barcode": null,
+      "title": "Leichenschmaus",
+      "status": "Official"
+    },
+    {
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "quality": "normal",
+      "date": "2000",
+      "text-representation": {
+        "language": "deu",
+        "script": "Latn"
+      },
+      "packaging": null,
+      "id": "f722afbd-fc01-420f-8496-578866e70efc",
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "sort-name": "United Kingdom",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "name": "United Kingdom"
+          },
+          "date": "2000"
+        }
+      ],
+      "status": "Official",
+      "packaging-id": null,
+      "country": "GB",
+      "barcode": null,
+      "title": "Kernkraft 400"
+    },
+    {
+      "release-events": [
+        {
+          "date": "2000",
+          "area": null
+        }
+      ],
+      "id": "4c966872-7b9c-41ee-8850-49ea352b9299",
+      "packaging-id": null,
+      "country": null,
+      "title": "Kernkraft 400",
+      "barcode": "7039695190003",
+      "status": "Official",
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "date": "2000",
+      "packaging": null,
+      "text-representation": {
+        "language": "deu",
+        "script": "Latn"
+      }
+    },
+    {
+      "date": "2002",
+      "packaging": null,
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "quality": "normal",
+      "status": "Official",
+      "country": "DE",
+      "packaging-id": null,
+      "title": "Unload",
+      "barcode": "718752758260",
+      "id": "47ff25fe-9a4b-4b24-bf10-b4a6a4c95d23",
+      "release-events": [
+        {
+          "date": "2002",
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "sort-name": "Germany",
+            "type": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2002",
+      "packaging": null,
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "status": "Official",
+      "country": "DE",
+      "packaging-id": null,
+      "barcode": null,
+      "title": "Unload",
+      "release-events": [
+        {
+          "date": "2002",
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "sort-name": "Germany",
+            "type": null
+          }
+        }
+      ],
+      "id": "5634c90e-7bcb-47fe-9053-90f051ff5902"
+    },
+    {
+      "date": "2003-09-01",
+      "packaging": "Digipak",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "quality": "normal",
+      "status": "Official",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "country": "DE",
+      "title": "Absorber",
+      "barcode": "4042564025170",
+      "id": "c9dcaa27-58b3-4b94-b8b6-125e2ff09643",
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "sort-name": "Germany",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "type-id": null,
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany"
+          },
+          "date": "2003-09-01"
+        }
+      ]
+    },
+    {
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging": null,
+      "date": "2003",
+      "quality": "normal",
+      "disambiguation": "",
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+      "barcode": null,
+      "title": "Absorber",
+      "country": "DE",
+      "packaging-id": null,
+      "status": "Promotion",
+      "id": "bb20021c-fd59-423d-ba67-39f8f524c611",
+      "release-events": [
+        {
+          "date": "2003",
+          "area": {
+            "name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "type-id": null,
+            "sort-name": "Germany",
+            "type": null
+          }
+        }
+      ]
+    },
+    {
+      "date": "2003",
+      "packaging": null,
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "quality": "normal",
+      "status": "Official",
+      "packaging-id": null,
+      "country": "DE",
+      "title": "Souls at Zero",
+      "barcode": null,
+      "release-events": [
+        {
+          "date": "2003",
+          "area": {
+            "type": null,
+            "sort-name": "Germany",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "disambiguation": "",
+            "name": "Germany"
+          }
+        }
+      ],
+      "id": "f9214c18-cc0e-4a17-aa0a-bae37cb75888"
+    },
+    {
+      "status": "Official",
+      "title": "Paeng Paeng",
+      "barcode": null,
+      "country": "DE",
+      "packaging-id": null,
+      "id": "accc6100-9fa4-479a-bbdc-842bfb48277e",
+      "release-events": [
+        {
+          "date": "2005-07-04",
+          "area": {
+            "type": null,
+            "sort-name": "Germany",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "type-id": null,
+            "name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "disambiguation": ""
+          }
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging": null,
+      "date": "2005-07-04",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "quality": "normal"
+    },
+    {
+      "status": "Official",
+      "title": "Money Talks",
+      "barcode": null,
+      "country": "DE",
+      "packaging-id": null,
+      "id": "f55b1646-f0af-4a2d-95c2-1c607ccba5f5",
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "sort-name": "Germany",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany"
+          },
+          "date": "2006-01"
+        }
+      ],
+      "packaging": null,
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "date": "2006-01",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "quality": "normal"
+    },
+    {
+      "release-events": [
+        {
+          "date": "2006-07",
+          "area": {
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "type-id": null,
+            "sort-name": "Germany",
+            "type": null
+          }
+        }
+      ],
+      "id": "a5af91aa-511c-46bf-8a66-890db08c9981",
+      "packaging-id": null,
+      "country": "DE",
+      "barcode": "880319215315",
+      "title": "Booster",
+      "status": "Official",
+      "quality": "normal",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "date": "2006-07",
+      "packaging": null,
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      }
+    },
+    {
+      "date": "2006-11-06",
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging": null,
+      "quality": "normal",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "country": "DE",
+      "packaging-id": null,
+      "title": "Black Toys",
+      "barcode": null,
+      "status": "Official",
+      "id": "b1a66166-e7de-4e02-afa8-442b8bbe6565",
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "sort-name": "Germany",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "disambiguation": ""
+          },
+          "date": "2006-11-06"
+        }
+      ]
+    },
+    {
+      "status": null,
+      "title": "Peace & Greed Remixes",
+      "barcode": null,
+      "country": "DE",
+      "packaging-id": null,
+      "id": "5838d9b6-a9d2-4ad1-893b-166694310b85",
+      "release-events": [
+        {
+          "date": "2007-04-02",
+          "area": {
+            "sort-name": "Germany",
+            "type": null,
+            "name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ]
+          }
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "packaging": null,
+      "date": "2007-04-02",
+      "disambiguation": "",
+      "status-id": null,
+      "quality": "normal"
+    },
+    {
+      "date": "2007-11-12",
+      "packaging": null,
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "quality": "normal",
+      "status": "Official",
+      "country": "DE",
+      "packaging-id": null,
+      "barcode": null,
+      "title": "Gizmode",
+      "id": "37ecc214-0ced-4f1d-b077-4e714bea5ddc",
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "Germany",
+            "type": null,
+            "name": "Germany",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "disambiguation": "",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "type-id": null
+          },
+          "date": "2007-11-12"
+        }
+      ]
+    },
+    {
+      "date": "2008-11",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "packaging": null,
+      "status-id": null,
+      "disambiguation": "",
+      "quality": "normal",
+      "status": null,
+      "country": "DE",
+      "packaging-id": null,
+      "barcode": null,
+      "title": "Forza",
+      "id": "9dea8151-3910-4575-a328-032d624efe56",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "name": "Germany",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "sort-name": "Germany",
+            "type": null
+          },
+          "date": "2008-11"
+        }
+      ]
+    }
+  ],
+  "gender": null,
+  "area": {
+    "type-id": null,
+    "iso-3166-1-codes": [
+      "DE"
+    ],
+    "name": "Germany",
+    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+    "disambiguation": "",
+    "type": null,
+    "sort-name": "Germany"
+  },
+  "id": "e26fa4b0-ea73-4a33-a745-44077a0d5a59"
+}

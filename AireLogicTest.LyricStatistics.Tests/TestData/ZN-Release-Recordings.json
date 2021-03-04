@@ -1,0 +1,218 @@
+{
+  "date": "1999-10-08",
+  "cover-art-archive": {
+    "back": false,
+    "darkened": false,
+    "count": 1,
+    "artwork": true,
+    "front": true
+  },
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  },
+  "id": "afbea7d1-835f-4ff8-8027-ed352041f06c",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "disambiguation": "",
+  "barcode": "718752952828",
+  "country": "DE",
+  "quality": "normal",
+  "status": "Official",
+  "packaging": "Jewel Case",
+  "media": [
+    {
+      "position": 1,
+      "format": "CD",
+      "track-offset": 0,
+      "tracks": [
+        {
+          "position": 1,
+          "number": "1",
+          "length": 286360,
+          "id": "61aa2ad5-7d36-395f-8c3f-1313cfca52e5",
+          "recording": {
+            "title": "Kernkraft 400 (original mix)",
+            "id": "e22cbff9-e5fa-4a08-804a-a9d9b2e44152",
+            "length": 286000,
+            "first-release-date": "1999-04-12",
+            "video": false,
+            "disambiguation": ""
+          },
+          "title": "Kernkraft 400"
+        },
+        {
+          "number": "2",
+          "position": 2,
+          "title": "Rhythm Box",
+          "recording": {
+            "title": "Rythmbox",
+            "video": false,
+            "length": 259480,
+            "id": "f9eb5dfe-3f26-4a4f-a91b-d8e7580611fa",
+            "first-release-date": "1999-10-08",
+            "disambiguation": ""
+          },
+          "id": "447fb5e7-0e9a-36e5-bc5e-55a34dc2f5ed",
+          "length": 259480
+        },
+        {
+          "number": "3",
+          "position": 3,
+          "title": "Glam 25",
+          "id": "5f8bf08a-3675-3f9f-a7d1-86ab68e07c30",
+          "length": 184386,
+          "recording": {
+            "disambiguation": "",
+            "title": "Glam 25",
+            "video": false,
+            "length": 184346,
+            "id": "843b55f8-2cfe-4e1b-8f34-7cfdc5db9252",
+            "first-release-date": "1999-10-08"
+          }
+        },
+        {
+          "number": "4",
+          "position": 4,
+          "title": "Automaerk",
+          "id": "61c43351-3aa3-35d2-876d-5288e7331c98",
+          "length": 243826,
+          "recording": {
+            "disambiguation": "",
+            "title": "Automaerk",
+            "first-release-date": "1999-10-08",
+            "id": "b660695f-4b47-4be1-b3f5-2fba763e1dc7",
+            "length": 243813,
+            "video": false
+          }
+        },
+        {
+          "recording": {
+            "disambiguation": "",
+            "video": false,
+            "length": 289613,
+            "id": "a02829e7-b44c-41ba-b6b4-a658e48780fb",
+            "first-release-date": "1999-10-08",
+            "title": "Abflex User"
+          },
+          "id": "2a6ab2c7-6adc-34dd-8ee0-eff8dd1ebcbf",
+          "length": 289613,
+          "title": "Abflex User",
+          "position": 5,
+          "number": "5"
+        },
+        {
+          "number": "6",
+          "position": 6,
+          "title": "Velcrosquat Light",
+          "recording": {
+            "disambiguation": "",
+            "title": "Velcrosquat Light",
+            "video": false,
+            "id": "e1109105-c3a4-4ade-a5dc-df8ac6a27c7b",
+            "length": 214840,
+            "first-release-date": "1999-10-08"
+          },
+          "id": "3e056c23-6e1a-3687-99e1-4aed4c7ac152",
+          "length": 214933
+        },
+        {
+          "position": 7,
+          "number": "7",
+          "recording": {
+            "disambiguation": "",
+            "title": "Breakitdown",
+            "video": false,
+            "length": 302000,
+            "id": "a363114e-b009-4a5c-8387-6d9f95a1c651",
+            "first-release-date": "1999-10-08"
+          },
+          "length": 302120,
+          "id": "18735da3-dbf9-3de3-857f-2c8a08c05e53",
+          "title": "Breakitdown"
+        },
+        {
+          "number": "8",
+          "position": 8,
+          "title": "Cars",
+          "recording": {
+            "disambiguation": "",
+            "video": false,
+            "id": "fac98898-4b2b-4b44-ba9b-7fd12fb6a7ed",
+            "first-release-date": "1999-10-08",
+            "length": 203493,
+            "title": "Cars"
+          },
+          "id": "4147a730-2e3e-3052-b51a-2e891071c503",
+          "length": 203493
+        },
+        {
+          "number": "9",
+          "position": 9,
+          "title": "The Stand",
+          "recording": {
+            "video": false,
+            "length": 281053,
+            "id": "0e5bf45e-666b-4021-bf5a-c7568b736083",
+            "first-release-date": "1999-10-08",
+            "title": "The Stand",
+            "disambiguation": ""
+          },
+          "id": "aef9e7f9-5ac8-3212-872b-ea50b2c8b7d7",
+          "length": 281186
+        },
+        {
+          "title": "TV Control",
+          "recording": {
+            "id": "ef3a21bd-be7e-41d4-a0fe-5b50d8ab991b",
+            "length": 224360,
+            "first-release-date": "1999-10-08",
+            "video": false,
+            "title": "TV Control",
+            "disambiguation": ""
+          },
+          "length": 224360,
+          "id": "4fbba334-7177-3bb7-8628-87f3c0c4230d",
+          "number": "10",
+          "position": 10
+        },
+        {
+          "id": "6c14698d-931c-3cba-b91d-20734f16b409",
+          "length": 280240,
+          "recording": {
+            "disambiguation": "",
+            "title": "Sometimes Up",
+            "first-release-date": "1999-10-08",
+            "id": "2c2c8c04-951c-4c0f-809a-516df11abb86",
+            "length": 280240,
+            "video": false
+          },
+          "title": "Sometimes Up",
+          "position": 11,
+          "number": "11"
+        }
+      ],
+      "title": "",
+      "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+      "track-count": 11
+    }
+  ],
+  "title": "Leichenschmaus",
+  "asin": "B00002R2XM",
+  "release-events": [
+    {
+      "area": {
+        "iso-3166-1-codes": [
+          "DE"
+        ],
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "name": "Germany",
+        "type": null,
+        "type-id": null,
+        "sort-name": "Germany",
+        "disambiguation": ""
+      },
+      "date": "1999-10-08"
+    }
+  ]
+}

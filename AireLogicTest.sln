@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AireLogicTest.Console", "AireLogicTest.Console\AireLogicTest.Console.csproj", "{E60F8A97-88A5-4072-B754-4972A267C45C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AireLogicTest.LyricStatistics", "AireLogicTest.LyricStatistics\AireLogicTest.LyricStatistics.csproj", "{57A5C7B6-9182-4B29-9D3C-E4606D80EDB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AireLogicTest.LyricStatistics.Tests", "AireLogicTest.LyricStatistics.Tests\AireLogicTest.LyricStatistics.Tests.csproj", "{8E87E0A0-0CDE-4552-B066-5EA7CEAA00D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AireLogicTest.Api", "AireLogicTest.Api\AireLogicTest.Api.csproj", "{80AD9A07-DC77-4CDF-A401-473E37C27C20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E60F8A97-88A5-4072-B754-4972A267C45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60F8A97-88A5-4072-B754-4972A267C45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60F8A97-88A5-4072-B754-4972A267C45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60F8A97-88A5-4072-B754-4972A267C45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A5C7B6-9182-4B29-9D3C-E4606D80EDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A5C7B6-9182-4B29-9D3C-E4606D80EDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A5C7B6-9182-4B29-9D3C-E4606D80EDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A5C7B6-9182-4B29-9D3C-E4606D80EDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E87E0A0-0CDE-4552-B066-5EA7CEAA00D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E87E0A0-0CDE-4552-B066-5EA7CEAA00D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E87E0A0-0CDE-4552-B066-5EA7CEAA00D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E87E0A0-0CDE-4552-B066-5EA7CEAA00D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AD9A07-DC77-4CDF-A401-473E37C27C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AD9A07-DC77-4CDF-A401-473E37C27C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AD9A07-DC77-4CDF-A401-473E37C27C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AD9A07-DC77-4CDF-A401-473E37C27C20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

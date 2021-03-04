@@ -1,0 +1,868 @@
+{
+  "created": "2021-03-04T13:31:24.235Z",
+  "count": 2245,
+  "offset": 0,
+  "artists": [
+    {
+      "id": "e26fa4b0-ea73-4a33-a745-44077a0d5a59",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 100,
+      "name": "Zombie Nation",
+      "sort-name": "Zombie Nation",
+      "country": "DE",
+      "area": {
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Germany",
+        "sort-name": "Germany",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "89bbbab6-72de-43eb-81ba-e620ab207008",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Munich",
+        "sort-name": "Munich",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "German techno/electro project",
+      "life-span": {
+        "begin": "1998",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Zombi nation",
+          "name": "Zombi nation",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Kernkraft 400",
+          "name": "Kernkraft 400",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "german"
+        }
+      ]
+    },
+    {
+      "id": "160925c1-b9fc-41f2-9f4b-dd3e566f3e94",
+      "score": 55,
+      "name": "Zombie Station",
+      "sort-name": "Zombie Station",
+      "disambiguation": "covered \"Kernkraft 400\" by Zombie Nation",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "b37e1d6f-5c7c-451f-a94a-a4e10da6986a",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 42,
+      "name": "Zombie Zombie",
+      "sort-name": "Zombie Zombie",
+      "country": "FR",
+      "area": {
+        "id": "08310658-51eb-3801-80de-5a0739207115",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "France",
+        "sort-name": "France",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "2006",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Zombie Zombie",
+          "name": "Zombie Zombie",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Zombie-Zombie",
+          "name": "Zombie-Zombie",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "electropop"
+        }
+      ]
+    },
+    {
+      "id": "c98d7f7f-dc42-4039-868f-2f52c393e270",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 38,
+      "name": "Zombie",
+      "sort-name": "Zombie",
+      "country": "PL",
+      "area": {
+        "id": "dd7f80c8-f017-3d01-8608-2a8c9c32b954",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Poland",
+        "sort-name": "Poland",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "Polish drum n bass DJ",
+      "life-span": {
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Karpierz, Szymon",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Szymon Karpierz",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "f799310d-85e5-40b8-b725-ffd883c53eba",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 38,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "ZOMBIE!",
+      "sort-name": "ZOMBIE!",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "horror punk",
+      "life-span": {
+        "ended": null
+      },
+      "tags": [
+        {
+          "count": 1,
+          "name": "horror punk"
+        }
+      ]
+    },
+    {
+      "id": "ca407979-7b0f-4522-a620-3818b12bc5ba",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 37,
+      "name": "Zombie",
+      "sort-name": "Zombie",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "US thrash metal band",
+      "life-span": {
+        "begin": "2004",
+        "ended": true
+      }
+    },
+    {
+      "id": "48a6b632-07d4-47b2-bb71-00e645436f56",
+      "score": 37,
+      "name": "ZOMBIE",
+      "sort-name": "ZOMBIE",
+      "disambiguation": "video game arranger",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "47677b77-51eb-46df-97e1-cfda37a1aecb",
+      "score": 37,
+      "name": "Zombie",
+      "sort-name": "Zombie",
+      "disambiguation": "Euro house",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "c995a379-60b9-404b-bd97-a7e2de0751d3",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 36,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Rob Zombie",
+      "sort-name": "Zombie, Rob",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "156ca867-6674-4bae-9be9-2b4a60ced500",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Haverhill",
+        "sort-name": "Haverhill",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "ipis": [
+        "00334326680",
+        "00339537045"
+      ],
+      "isnis": [
+        "0000000078410246"
+      ],
+      "life-span": {
+        "begin": "1965-01-12",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Rob Straker",
+          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+          "name": "Rob Straker",
+          "locale": null,
+          "type": "Search hint",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Cummings, Robert Bartleh",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Robert Bartleh Cummings",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": "1965-01-12",
+          "end-date": "1996"
+        },
+        {
+          "sort-name": "Cummings, Robert",
+          "name": "Robert Cummings",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Zombie, Robert Wolfgang",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "name": "Robert Wolfgang Zombie",
+          "locale": null,
+          "type": "Legal name",
+          "primary": null,
+          "begin-date": "1996",
+          "end-date": null
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "rock"
+        },
+        {
+          "count": 1,
+          "name": "rock and indie"
+        },
+        {
+          "count": 2,
+          "name": "industrial metal"
+        },
+        {
+          "count": 1,
+          "name": "metal"
+        }
+      ]
+    },
+    {
+      "id": "cfe572bf-840f-4bed-934a-f69f4b1e90d4",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 36,
+      "name": "White Zombie",
+      "sort-name": "White Zombie",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "New York",
+        "sort-name": "New York",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "isnis": [
+        "0000000122432400"
+      ],
+      "life-span": {
+        "begin": "1985",
+        "end": "1996",
+        "ended": true
+      },
+      "tags": [
+        {
+          "count": 1,
+          "name": "industrial metal"
+        }
+      ]
+    },
+    {
+      "id": "db3e462e-7ac0-42cb-9b75-b9aba67b7135",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 35,
+      "name": "Nation",
+      "sort-name": "Nation",
+      "country": "SE",
+      "area": {
+        "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Sweden",
+        "sort-name": "Sweden",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "1127ddc2-eab3-4662-8718-6adbdeea3b10",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Stockholm",
+        "sort-name": "Stockholm",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "Neoclassical/Shred, Progressive Melodic Metal from Sweden",
+      "life-span": {
+        "begin": "1991",
+        "ended": null
+      },
+      "tags": [
+        {
+          "count": 1,
+          "name": "nation"
+        },
+        {
+          "count": 1,
+          "name": "anders wallberg"
+        },
+        {
+          "count": 1,
+          "name": "melodic metal"
+        },
+        {
+          "count": 1,
+          "name": "melodic"
+        },
+        {
+          "count": 1,
+          "name": "johnny öhlin"
+        },
+        {
+          "count": 1,
+          "name": "shred"
+        },
+        {
+          "count": 1,
+          "name": "metal"
+        },
+        {
+          "count": 1,
+          "name": "progressive"
+        },
+        {
+          "count": 1,
+          "name": "neoclassical"
+        },
+        {
+          "count": 1,
+          "name": "aor"
+        },
+        {
+          "count": 1,
+          "name": "sweden"
+        },
+        {
+          "count": 1,
+          "name": "kaspar dahlqvist"
+        },
+        {
+          "count": 1,
+          "name": "fredrik isaksson"
+        },
+        {
+          "count": 1,
+          "name": "nobby noberg"
+        }
+      ]
+    },
+    {
+      "id": "4e637c6a-ded7-4ded-9bb1-97010f8d9e8e",
+      "score": 35,
+      "name": "Nation",
+      "sort-name": "Nation",
+      "disambiguation": "80s New Wave",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "891ce73f-c36c-4a95-b881-902aca404487",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 35,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Nation",
+      "sort-name": "Nation",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "US rapper",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "a984a4b2-d14a-48b5-a202-f6d22b68965a",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 34,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "タブゾンビ",
+      "sort-name": "Tabu Zombie",
+      "gender": "male",
+      "country": "JP",
+      "area": {
+        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Japan",
+        "sort-name": "Japan",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "8c660e01-1898-4440-868d-36635c483d82",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Kagoshima",
+        "sort-name": "Kagoshima",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1977-04-13",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Tabu Zombie",
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "name": "Tabu Zombie",
+          "locale": "en",
+          "type": "Artist name",
+          "primary": true,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "8385f26a-f374-4a04-9aad-4442ce24db2b",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 34,
+      "name": "VNV Nation",
+      "sort-name": "VNV Nation",
+      "area": {
+        "id": "11a44e18-a2e5-43a9-bee9-aa4f7c83f967",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Hamburg",
+        "sort-name": "Hamburg",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "London",
+        "sort-name": "London",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1990",
+        "ended": null
+      },
+      "tags": [
+        {
+          "count": 4,
+          "name": "synthpop"
+        },
+        {
+          "count": 1,
+          "name": "synth-pop"
+        },
+        {
+          "count": 1,
+          "name": "trance"
+        },
+        {
+          "count": 4,
+          "name": "ebm"
+        },
+        {
+          "count": 1,
+          "name": "british"
+        },
+        {
+          "count": 1,
+          "name": "n2"
+        },
+        {
+          "count": 8,
+          "name": "electronic"
+        },
+        {
+          "count": 8,
+          "name": "futurepop"
+        },
+        {
+          "count": 1,
+          "name": "electro-industrial"
+        }
+      ]
+    },
+    {
+      "id": "050bd499-feba-4321-93d7-27b96a60d504",
+      "type": "Group",
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "score": 34,
+      "name": "Zombie Girl",
+      "sort-name": "Zombie Girl",
+      "country": "CA",
+      "area": {
+        "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "Canada",
+        "sort-name": "Canada",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "2006",
+        "ended": null
+      },
+      "tags": [
+        {
+          "count": 1,
+          "name": "industrial/electro"
+        }
+      ]
+    },
+    {
+      "id": "b9034d76-6c53-4d47-a213-fe50166ce34d",
+      "score": 34,
+      "name": "Nation 4 Nation",
+      "sort-name": "Nation 4 Nation",
+      "life-span": {
+        "ended": null
+      }
+    },
+    {
+      "id": "8054095e-23c0-4f3e-b4ec-cd0a81892d48",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 33,
+      "name": "Cristian Gauna",
+      "sort-name": "Gauna, Cristian",
+      "disambiguation": "Tren Loco",
+      "life-span": {
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Cristian \"Zombie\" Gauna",
+          "name": "Cristian \"Zombie\" Gauna",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Zombie",
+          "name": "Zombie",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "cd058e1c-aa4a-46b7-82be-8cfe82af1f87",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 33,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Fetid Zombie",
+      "sort-name": "Fetid Zombie",
+      "gender": "male",
+      "country": "US",
+      "area": {
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": "Country",
+        "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+        "name": "United States",
+        "sort-name": "United States",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "c1c15585-4342-4fdb-a665-9bf133ba373a",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Leesburg",
+        "sort-name": "Leesburg",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "one-man death metal",
+      "life-span": {
+        "begin": "2007",
+        "ended": null
+      },
+      "tags": [
+        {
+          "count": 1,
+          "name": "death metal"
+        }
+      ]
+    },
+    {
+      "id": "f453b6db-5337-4b8c-af94-fa7258f51d03",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 33,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "D NAATION",
+      "sort-name": "D NAATION",
+      "gender": "male",
+      "area": {
+        "id": "29a709d8-0320-493e-8d0c-f2c386662b7f",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Chicago",
+        "sort-name": "Chicago",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "begin-area": {
+        "id": "29a709d8-0320-493e-8d0c-f2c386662b7f",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Chicago",
+        "sort-name": "Chicago",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "disambiguation": "HipHop",
+      "life-span": {
+        "begin": "1997-03-12",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "D!Nation",
+          "name": "D!Nation",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "D Nation",
+          "name": "D Nation",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "D Nation entertainment",
+          "name": "D Nation entertainment",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "D&B Nation",
+          "name": "D&B Nation",
+          "locale": null,
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ],
+      "tags": [
+        {
+          "count": 1,
+          "name": "d naation soundcloud"
+        },
+        {
+          "count": 1,
+          "name": "d naation casper"
+        },
+        {
+          "count": 1,
+          "name": "d naation"
+        }
+      ]
+    },
+    {
+      "id": "04f94a42-8a15-4769-95ae-5a679c8534a8",
+      "type": "Person",
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "score": 33,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "name": "Roots Zombie",
+      "sort-name": "Roots Zombie",
+      "gender": "male",
+      "area": {
+        "id": "03a6d664-6d79-42e3-bb8a-c48aef1dcc2b",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Bordeaux",
+        "sort-name": "Bordeaux",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "ended": null
+      },
+      "tags": [
+        {
+          "count": 1,
+          "name": "bass music"
+        },
+        {
+          "count": 1,
+          "name": "electronic"
+        },
+        {
+          "count": 1,
+          "name": "electro dub"
+        },
+        {
+          "count": 1,
+          "name": "dub"
+        },
+        {
+          "count": 1,
+          "name": "drum & bass"
+        }
+      ]
+    }
+  ]
+}
