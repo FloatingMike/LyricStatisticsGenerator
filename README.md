@@ -1,8 +1,5 @@
 <!-- PROJECT SHIELDS -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -10,10 +7,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/MikeVerius/Aire">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Artist Lyric Statistics</h3>
 
   <p align="center">
@@ -79,12 +72,9 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
+* dotnet core 
+  Please download the appropriate Runtime package for your platform from [here](https://dotnet.microsoft.com/download/dotnet/3.1)
+  
 ### Installation
 
 1. Clone the repo
@@ -135,31 +125,20 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@MikeDoesCode](https://twitter.com/MikeDoesCode) - Mike.Hardman.Work@gmail.com
+Michael Hardman - [@MikeDoesCode](https://twitter.com/MikeDoesCode) - Mike.Hardman.Work@gmail.com
 
 Project Link: [https://github.com/MikeVerius/Aire](https://github.com/MikeVerius/Aire)
 
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/MikeVerius/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/MikeVerius/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/MikeVerius/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/MikeVerius/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/MikeVerius/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/MikeVerius/repo/stargazers
 [issues-shield]: https://img.shields.io/github/issues/MikeVerius/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/MikeVerius/repo/issues
 [license-shield]: https://img.shields.io/github/license/MikeVerius/repo.svg?style=for-the-badge
