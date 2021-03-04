@@ -33,6 +33,7 @@ namespace AireLogicTest.LyricStatistics
             if (!_lyricCache[artistName].ContainsKey(trackName))
             {
                 _lyricCache[artistName].Add(trackName, await _lyricService.GetLyricForTrack(artistName, trackName));
+                WriteCache();
             }
 
             return _lyricCache[artistName][trackName];
@@ -44,7 +45,7 @@ namespace AireLogicTest.LyricStatistics
             if (_config.EnableFileCaching)
             {
                 _logger.LogInformation("Saving Lyric Cache to Disk");
-                SerialiseToFile(_lyricCache, "lyricCache.dat");
+                SerialiseToFile(_lyricCache, _config.LyricCacheFileName);
                 _logger.LogInformation("Finished Saving Lyric Cache to Disk");
             }
         }
@@ -54,7 +55,7 @@ namespace AireLogicTest.LyricStatistics
             if (_config.EnableFileCaching)
             {
                 _lyricCache =
-                    LoadFromFile<Dictionary<string, Dictionary<string, LyricDto>>>("lyricCache.dat");
+                    LoadFromFile<Dictionary<string, Dictionary<string, LyricDto>>>(_config.LyricCacheFileName);
             }
             else
             {

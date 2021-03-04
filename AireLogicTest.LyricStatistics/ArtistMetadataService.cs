@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using AireLogicTest.LyricStatistics.ApiTypes;
 using AireLogicTest.LyricStatistics.Configuration;
@@ -40,7 +41,7 @@ namespace AireLogicTest.LyricStatistics
             {
                 _logger.LogInformation($"Getting Tracks for Release with id {release.Id}");
                 var recordingResult = await MakeRequestWithDelay<ReleaseResultDto>($"{_config.MusicBrainzRootUrl}release/{release.Id}?inc=recordings", _config.MusicBrainzTimeoutMilliseconds);
-                trackNames.AddRange(recordingResult.Media.SelectMany(m => m.Tracks.Select(t => t.Title)));
+                trackNames.AddRange(recordingResult.Media.SelectMany(m => m.Tracks.Select(t => Regex.Replace(t.Title, @"\(.*?\)", ""))));
             }
 
             return trackNames.Distinct().ToList();

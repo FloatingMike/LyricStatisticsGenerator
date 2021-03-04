@@ -1,4 +1,5 @@
 using System;
+using System.Net;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading;
@@ -25,20 +26,20 @@ namespace AireLogicTest.LyricStatistics
             _logger = logger;
         }
 
-        protected async Task<TResult> MakeRequestWithDelay<TResult>(string url, double timeoutMilliseconds, int retries = 3)
+        protected async Task<TResult> MakeRequestWithDelay<TResult>(string url, int timeoutMilliseconds, int retries = 3)
         {
             await _requestSemaphore.WaitAsync(); // make sure only one call can flow through here at a time.
             
             if (_nextRequestAllowed.HasValue && _dateTimeProvider.Now < _nextRequestAllowed.Value)
             {
                 var delayTime = (_nextRequestAllowed.Value - _dateTimeProvider.Now).Add(TimeSpan.FromMilliseconds(100));
-                _logger.LogInformation("Waiting for {0}ms to avoid api flooding", delayTime.TotalMilliseconds);
+                _logger.LogInformation("Waiting for {0}ms", delayTime.TotalMilliseconds);
                 await Task.Delay(delayTime); // let it cool down make sure there has been enough time since the last request
             }
 
             var attempts = 0;
 
-            while (attempts < retries)
+            while (attempts <= retries)
             {
                 try
                 {
@@ -50,8 +51,19 @@ namespace AireLogicTest.LyricStatistics
                     {
                         return JsonSerializer.Deserialize<TResult>(await result.Content.ReadAsStringAsync());
                     }
+
+                    switch (result.StatusCode)
+                    {
+                        case HttpStatusCode.ServiceUnavailable:
+                            _logger.LogWarning($"API Returned {result.StatusCode}, will wait to cool down and try again");
+                            await Task.Delay(timeoutMilliseconds);
+                            break;
+                        default:
+                            _logger.LogError($"API Returned {result.StatusCode}, will not retry");
+                            attempts = retries;
+                            break;
+                    }
                     
-                    throw new Exception($"Request to API failed, result - {result.StatusCode}");
                 }
                 catch (Exception ex)
                 {

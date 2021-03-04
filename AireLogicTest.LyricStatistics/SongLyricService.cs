@@ -21,46 +21,46 @@ namespace AireLogicTest.LyricStatistics
             _logger = logger;
             _config = config;
         }
-        
+
         public async Task<LyricDto> GetLyricForTrack(string artistName, string trackName)
         {
             await _lyricRequestSemaphore.WaitAsync();
 
-            while (true)
+            _logger.LogInformation($"Retrieving lyrics for track '{trackName}'");
+            try
             {
-                _logger.LogInformation($"Retrieving lyrics for track '{trackName}'");
-                try
+                var result = await MakeRequestWithDelay<LyricResult>($"{_config.LyricsOvhUrl}{artistName}/{trackName}",
+                    _config.LyricsTimeoutMilliseconds, _config.LyricRetries);
+
+                if (result != null && string.IsNullOrWhiteSpace(result.Error) &&
+                    !string.IsNullOrWhiteSpace(result.Lyrics))
                 {
-                    var result = await MakeRequestWithDelay<LyricResult>($"{_config.LyricsOvhUrl}{artistName}/{trackName}", _config.LyricsTimeoutMilliseconds, _config.LyricRetries);
-
-                        if (result != null && string.IsNullOrWhiteSpace(result.Error) &&
-                            !string.IsNullOrWhiteSpace(result.Lyrics))
-                        {
-                            _lyricRequestSemaphore.Release();
-                            return new LyricDto
-                            {
-                                Lyrics = result.Lyrics,
-                            };
-                        }
-
-                        if (result != null && !string.IsNullOrWhiteSpace(result.Error))
-                        {
-                            // we had an error from the api and not a request failure so we're going to return a null here
-                            return null;
-                        }
-                        else
-                        {
-                            _logger.LogWarning($"Error requesting track {trackName} for artist {artistName} from lyrics api");
-                        }
+                    _lyricRequestSemaphore.Release();
+                    return new LyricDto
+                    {
+                        Lyrics = result.Lyrics,
+                    };
                 }
-                catch (Exception ex)
+
+                if (result != null && !string.IsNullOrWhiteSpace(result.Error))
                 {
-                    _logger.LogWarning(ex,
-                        $"Error requesting track {trackName} for artist {artistName} from lyrics api");
-                    _logger.LogInformation("Pausing for 10 seconds to give some breating room");
-                    await Task.Delay(10000);
+                    _logger.LogWarning($"Returning No Lyrics for {trackName}");
+                    // we had an error from the api and not a request failure so we're going to return a null here
+                    return null;
+                }
+                else
+                {
+                    _logger.LogWarning($"Error requesting track {trackName} for artist {artistName} from lyrics api");
                 }
             }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex,
+                    $"Error requesting track {trackName} for artist {artistName} from lyrics api");
+            }
+
+            _logger.LogWarning($"Returning No Lyrics for {trackName}");
+            return null;
         }
     }
 }

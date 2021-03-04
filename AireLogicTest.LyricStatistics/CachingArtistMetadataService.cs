@@ -48,8 +48,8 @@ namespace AireLogicTest.LyricStatistics
         {
             if (_config.EnableFileCaching)
             {
-                SerialiseToFile(_artistSearchCache, "metadataArtistCache.dat");
-                SerialiseToFile(_trackCache, "metadataTrackCache.dat");
+                SerialiseToFile(_artistSearchCache, _config.ArtistSearchCacheFileName);
+                SerialiseToFile(_trackCache, _config.ArtistTrackNameCacheFileName);
             }
         }
 
@@ -58,8 +58,8 @@ namespace AireLogicTest.LyricStatistics
             if (_config.EnableFileCaching)
             {
                 _artistSearchCache =
-                    LoadFromFile<Dictionary<string, Dictionary<string, string>>>("metadataArtistCache.dat");
-                _trackCache = LoadFromFile<Dictionary<string, List<string>>>("metadataTrackCache.dat");
+                    LoadFromFile<Dictionary<string, Dictionary<string, string>>>(_config.ArtistSearchCacheFileName);
+                _trackCache = LoadFromFile<Dictionary<string, List<string>>>(_config.ArtistTrackNameCacheFileName);
             }
             else
             {

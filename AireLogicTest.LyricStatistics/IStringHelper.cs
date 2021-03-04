@@ -1,7 +1,9 @@
+using System.Collections.Generic;
+
 namespace AireLogicTest.LyricStatistics
 {
     public interface IStringHelper
     {
-        int WordsInString(string source);
+        (int wordCount, HashSet<string> uniqueWords) WordsInString(string source);
     }
 }

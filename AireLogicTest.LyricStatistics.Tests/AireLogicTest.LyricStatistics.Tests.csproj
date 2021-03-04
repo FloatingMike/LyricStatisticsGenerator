@@ -38,4 +38,10 @@
       </None>
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Update="DiskCachingTestHarness.cs">
+        <DependentUpon>DiskCacheTests.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>

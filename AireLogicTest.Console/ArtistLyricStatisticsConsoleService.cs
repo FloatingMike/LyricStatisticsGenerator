@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AireLogicTest.LyricStatistics;
@@ -40,13 +41,22 @@ namespace AireLogicTest
             
             // with the tracks we need to collect the lyrics from the lyric service
 
-            var lyrics = await Task.WhenAll(tracks.Select(t => _lyricService.GetLyricForTrack(artistName, t)));
+            Console.WriteLine($"We have {tracks.Count} tracks");
+            var lyrics = new List<LyricDto>();
+            foreach(var track in tracks)
+            {
+                Console.WriteLine($"Requesting Lyrics for {track}");
+                var lyric = await _lyricService.GetLyricForTrack(artistName, track);
+                if (lyric != null)
+                {
+                    lyrics.Add(lyric);
+                }
+            }
             
             // then calculate statistics
-            var statistics = _lyricsHelper.CalculateStatistics(lyrics.Where(l => l != null).ToList());
+            var statistics = _lyricsHelper.CalculateStatistics(lyrics);
             
             PresentResults(statistics);
-            
         }
 
         private string RequestArtistName()
