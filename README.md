@@ -75,19 +75,20 @@ To get a local copy up and running follow these simple steps.
    ```sh
    dotnet test
    ```
-3. 
+<!-- USAGE EXAMPLES -->
+## Usage
+
+* Start an analysis
    ```sh
    dotnet run --project AireLogicTest.Console
    ```
    (Alternatively you can switch into the AireLogicTest.Console directory and just use `dotnet run` from there)
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
 * An artist name can be entered as an argument to avoid an initial prompt
   ```sh
   dotnet run "Depeche Mode"
   ```
+ 
   You will then be prompted to select an artist name from a list of potential matches, the most likely match will be the first item with the identifier "0" however if you do not find the result you want, enter no value and you will be prompted to input a new artist name to try again.
 
   If the artist has previously been searched successfully the result will be calculated from locally cached versions of the lyrics otherwise depending on the artist selected it may take many minutes to generate the output.
