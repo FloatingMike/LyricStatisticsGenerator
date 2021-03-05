@@ -16,6 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\AireLogicTest.Console\AireLogicTest.Console.csproj" />
       <ProjectReference Include="..\AireLogicTest.LyricStatistics\AireLogicTest.LyricStatistics.csproj" />
     </ItemGroup>
 

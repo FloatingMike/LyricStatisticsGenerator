@@ -93,6 +93,8 @@ To get a local copy up and running follow these simple steps.
 
   If the artist has previously been searched successfully the result will be calculated from locally cached versions of the lyrics otherwise depending on the artist selected it may take many minutes to generate the output.
 
+* To exit the application at any time press Ctrl+C with the application in focus
+
 <!-- ROADMAP -->
 ## Roadmap
 

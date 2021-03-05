@@ -17,7 +17,6 @@ namespace AireLogicTest.LyricStatistics
         private IDateTimeProvider _dateTimeProvider;
         private readonly ILogger _logger;
         private DateTime? _nextRequestAllowed;
-        private SemaphoreSlim _requestSemaphore = new SemaphoreSlim(1);
 
         protected WebRequestServiceBase(HttpClient client, ILogger logger, IDateTimeProvider dateTimeProvider)
         {
@@ -28,11 +27,10 @@ namespace AireLogicTest.LyricStatistics
 
         protected async Task<TResult> MakeRequestWithDelay<TResult>(string url, int timeoutMilliseconds, int retries = 3)
         {
-            await _requestSemaphore.WaitAsync(); // make sure only one call can flow through here at a time.
             
             if (_nextRequestAllowed.HasValue && _dateTimeProvider.Now < _nextRequestAllowed.Value)
             {
-                var delayTime = (_nextRequestAllowed.Value - _dateTimeProvider.Now).Add(TimeSpan.FromMilliseconds(100));
+                var delayTime = (_nextRequestAllowed.Value - _dateTimeProvider.Now).Add(TimeSpan.FromMilliseconds(10));
                 _logger.LogInformation("Waiting for {0}ms", delayTime.TotalMilliseconds);
                 await Task.Delay(delayTime); // let it cool down make sure there has been enough time since the last request
             }
@@ -45,7 +43,6 @@ namespace AireLogicTest.LyricStatistics
                 {
                     var result = await _client.GetAsync(url);
                     _nextRequestAllowed = _dateTimeProvider.Now + TimeSpan.FromMilliseconds(timeoutMilliseconds);
-                    _requestSemaphore.Release();
 
                     if (result.IsSuccessStatusCode)
                     {

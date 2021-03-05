@@ -1,26 +1,32 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using AireLogicTest.LyricStatistics;
 using AireLogicTest.LyricStatistics.Dtos;
 
 namespace AireLogicTest
 {
-    class ArtistLyricStatisticsConsoleService
+    public class ArtistLyricStatisticsConsoleService
     {
         private readonly ILyricStatisticsHelper _lyricsHelper;
         private readonly IArtistMetadataService _artistMetadataService;
         private readonly ISongLyricService _lyricService;
+        private readonly IResultPresentationService _resultPresentationService;
+        private readonly IInputService _inputService;
 
-        public ArtistLyricStatisticsConsoleService(ILyricStatisticsHelper lyricsHelper, IArtistMetadataService artistMetadataService, ISongLyricService lyricService)
+        public ArtistLyricStatisticsConsoleService(ILyricStatisticsHelper lyricsHelper, IArtistMetadataService artistMetadataService, ISongLyricService lyricService, IResultPresentationService resultPresentationService, IInputService inputService)
         {
             _lyricsHelper = lyricsHelper;
             _artistMetadataService = artistMetadataService;
             _lyricService = lyricService;
+            _resultPresentationService = resultPresentationService;
+            _inputService = inputService;
         }
 
-        public async Task Execute(string[] args)
+        public async Task Execute(params string[] args)
         {
             string artistName, artistId;
             
@@ -41,11 +47,13 @@ namespace AireLogicTest
             
             // with the tracks we need to collect the lyrics from the lyric service
 
-            Console.WriteLine($"We have {tracks.Count} tracks");
+            _resultPresentationService.OutputStatus($"We have {tracks.Count} tracks");
             var lyrics = new List<LyricDto>();
+            var concurrencySemaphore = new SemaphoreSlim(5);
+            
             foreach(var track in tracks)
             {
-                Console.WriteLine($"Requesting Lyrics for {track}");
+                _resultPresentationService.OutputStatus($"Requesting Lyrics for {track}");
                 var lyric = await _lyricService.GetLyricForTrack(artistName, track);
                 if (lyric != null)
                 {
@@ -56,17 +64,18 @@ namespace AireLogicTest
             // then calculate statistics
             var statistics = _lyricsHelper.CalculateStatistics(lyrics);
             
-            PresentResults(statistics);
+            _resultPresentationService.PresentResults(statistics);
         }
 
         private string RequestArtistName()
         {
             var name = "";
+            var prompt = new StringBuilder();
+            prompt.AppendLine();
+            prompt.Append("Please provide the name of a musical artist and press enter:");
             while (string.IsNullOrWhiteSpace(name))
             {
-                Console.WriteLine();
-                Console.Write("Please provide the name of a musical artist and press enter:");
-                name = Console.ReadLine();
+                name = _inputService.RequestInput(prompt.ToString());
             }
 
             return name.Trim().ToLowerInvariant();
@@ -92,20 +101,23 @@ namespace AireLogicTest
                 if (artists.Count > 1)
                 {
                     // we have more than one match for that artist, let's display a picker to allow the choice
-                    Console.WriteLine();
                     var index = 0;
+                    var sb = new StringBuilder();
+                    sb.AppendLine();
                     foreach (var artist in artists)
                     {
-                        Console.WriteLine($"{index}. {artist.Value}");
+                        sb.AppendLine($"{index}. {artist.Value}");
                         index++;
                     }
 
+                    sb.AppendLine();
+                    sb.Append("Please select an Artist by their number: ");
+                    
                     int selected = -1;
                     while (selected == -1)
                     {
-                        Console.WriteLine();
-                        Console.Write("Please select an Artist by their number: ");
-                        var value = Console.ReadLine()?.Trim();
+                        var value = _inputService.RequestInput(sb.ToString());
+                        
                         if (string.IsNullOrWhiteSpace(value))
                         {
                             break; // nothing entered, so break the selection loop
@@ -113,7 +125,7 @@ namespace AireLogicTest
                         
                         if (!int.TryParse(value, out selected))
                         {
-                            Console.WriteLine(
+                            _resultPresentationService.OutputStatus(
                                 $"Sorry `{value}` was not a valid selection, please choose a number between 0 and {artists.Count - 1}");
                         }
                     }
@@ -132,11 +144,6 @@ namespace AireLogicTest
 
                 artistName = string.Empty;
             }
-        }
-
-        private void PresentResults(LyricStatisticsDto lyricStatisticsDto)
-        {
-            Console.WriteLine(lyricStatisticsDto);
         }
     }
 }

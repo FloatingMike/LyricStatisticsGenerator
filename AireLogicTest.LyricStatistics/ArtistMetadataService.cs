@@ -30,21 +30,42 @@ namespace AireLogicTest.LyricStatistics
         {
             // To lookup the lyrics we need to get a list of track names for this artist.
             // We can request the recordings and for each recording request its released track name(s) 
-            
-            var artistResult = await MakeRequestWithDelay<ArtistResultDto>($"{_config.MusicBrainzRootUrl}artist/{artistKey}?inc=releases", _config.MusicBrainzTimeoutMilliseconds);
 
-            var trackNames = new List<string>();
-            
-            _logger.LogInformation($"Found {artistResult.Releases.Count} releases for artist '{artistResult.Name}'");
+            ArtistResultDto artistResult = await MakeRequestWithDelay<ArtistResultDto>($"{_config.MusicBrainzRootUrl}release?artist={artistKey}&limit=100&offset=0", _config.MusicBrainzTimeoutMilliseconds);
+            var offset = 100;
+
+            var trackNames = new HashSet<string>();
+            var releases = new HashSet<string>();
             
             foreach (var release in artistResult.Releases)
             {
-                _logger.LogInformation($"Getting Tracks for Release with id {release.Id}");
-                var recordingResult = await MakeRequestWithDelay<ReleaseResultDto>($"{_config.MusicBrainzRootUrl}release/{release.Id}?inc=recordings", _config.MusicBrainzTimeoutMilliseconds);
-                trackNames.AddRange(recordingResult.Media.SelectMany(m => m.Tracks.Select(t => Regex.Replace(t.Title, @"\(.*?\)", ""))));
+                releases.Add(release.Id);
+            }
+            
+            while (artistResult.Releases.Count == 100)
+            {
+                artistResult = await MakeRequestWithDelay<ArtistResultDto>($"{_config.MusicBrainzRootUrl}release?artist={artistKey}&limit=100&offset={offset}", _config.MusicBrainzTimeoutMilliseconds);
+                foreach (var release in artistResult.Releases)
+                {
+                    releases.Add(release.Id);
+                }
+                offset += 100;
+                _logger.LogInformation($"Found {artistResult.Releases.Count} releases for artist '{artistKey}' making a total of {releases.Count}");
+            }
+            
+            foreach (var release in releases)
+            {
+                _logger.LogInformation($"Getting Tracks for Release with id {release}");
+                var recordingResult = await MakeRequestWithDelay<ReleaseResultDto>($"{_config.MusicBrainzRootUrl}release/{release}?inc=recordings", _config.MusicBrainzTimeoutMilliseconds);
+                // We remove anything in brackets from the song name, it causes duplicates with live recordings and other notable releases
+                foreach (var s in recordingResult.Media.SelectMany(m =>
+                    m.Tracks.Select(t => Regex.Replace(t.Title, @"\(.*?\)", "").Trim())))
+                {
+                    trackNames.Add(s);
+                }
             }
 
-            return trackNames.Distinct().ToList();
+            return trackNames.ToList();
         }
     }
 }

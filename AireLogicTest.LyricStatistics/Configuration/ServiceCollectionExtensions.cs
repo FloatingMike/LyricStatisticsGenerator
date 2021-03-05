@@ -1,3 +1,4 @@
+using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,6 +30,7 @@ namespace AireLogicTest.LyricStatistics.Configuration
             
             serviceCollection.AddScoped<HttpClient>(sp => {
                 var client = new HttpClient();
+                client.Timeout = TimeSpan.FromSeconds(10);
                 client.DefaultRequestHeaders.UserAgent.TryParseAdd("LyricAnalysisApplication/0.0.1 (Mike.Hardman.Work+lyrics@gmail.com)");
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(MediaTypeWithQualityHeaderValue.Parse("application/json"));

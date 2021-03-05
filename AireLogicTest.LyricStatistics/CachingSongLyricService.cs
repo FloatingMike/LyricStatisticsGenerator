@@ -14,6 +14,7 @@ namespace AireLogicTest.LyricStatistics
         private readonly CachingConfiguration _config;
         private readonly ILogger<CachingSongLyricService> _logger;
         private Dictionary<string, Dictionary<string, LyricDto>> _lyricCache;
+        private object _saveLock = new object();
         
         public CachingSongLyricService(ISongLyricService lyricService, CachingConfiguration config, ILogger<CachingSongLyricService> logger)
         {
@@ -44,9 +45,12 @@ namespace AireLogicTest.LyricStatistics
         {
             if (_config.EnableFileCaching)
             {
-                _logger.LogInformation("Saving Lyric Cache to Disk");
-                SerialiseToFile(_lyricCache, _config.LyricCacheFileName);
-                _logger.LogInformation("Finished Saving Lyric Cache to Disk");
+                lock (_saveLock)
+                {
+                    _logger.LogInformation("Saving Lyric Cache to Disk");
+                    SerialiseToFile(_lyricCache, _config.LyricCacheFileName);
+                    _logger.LogInformation("Finished Saving Lyric Cache to Disk");
+                }
             }
         }
 

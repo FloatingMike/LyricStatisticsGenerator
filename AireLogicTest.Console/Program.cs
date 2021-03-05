@@ -41,6 +41,8 @@ namespace AireLogicTest
             serviceCollection.AddSingleton<ArtistMetaDataServiceConfiguration>();
             serviceCollection.AddSingleton<SongLyricServiceConfiguration>();
             serviceCollection.AddSingleton<CachingConfiguration>();
+            serviceCollection.AddSingleton<IResultPresentationService, ConsoleResultPresentationService>();
+            serviceCollection.AddSingleton<IInputService, ConsoleInputService>();
             return serviceCollection.BuildServiceProvider();
         }
     }

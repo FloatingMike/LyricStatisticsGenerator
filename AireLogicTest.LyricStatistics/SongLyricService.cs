@@ -24,8 +24,6 @@ namespace AireLogicTest.LyricStatistics
 
         public async Task<LyricDto> GetLyricForTrack(string artistName, string trackName)
         {
-            await _lyricRequestSemaphore.WaitAsync();
-
             _logger.LogInformation($"Retrieving lyrics for track '{trackName}'");
             try
             {

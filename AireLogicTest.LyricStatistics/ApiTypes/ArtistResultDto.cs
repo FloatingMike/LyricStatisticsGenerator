@@ -8,7 +8,7 @@ namespace AireLogicTest.LyricStatistics.ApiTypes
         [JsonPropertyName("releases")]
         public List<Release> Releases { get; set; }
         
-        [JsonPropertyName("name")]
-        public string Name { get; set; }
+        [JsonPropertyName("release-count")]
+        public int ReleaseCount { get; set; }
     }
 }

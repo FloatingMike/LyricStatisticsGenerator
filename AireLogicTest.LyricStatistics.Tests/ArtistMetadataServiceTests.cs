@@ -43,14 +43,14 @@ namespace AireLogicTest.LyricStatistics.Tests
             var handler = new Mock<HttpMessageHandler>();
             
             handler.Protected()
-                .Setup<Task<HttpResponseMessage>>("SendAsync",  ItExpr.Is<HttpRequestMessage>(m => m.RequestUri.AbsoluteUri.EndsWith("releases")), ItExpr.IsAny<CancellationToken>())
+                .Setup<Task<HttpResponseMessage>>("SendAsync",  ItExpr.Is<HttpRequestMessage>(m => m.RequestUri.AbsoluteUri.Contains("release?artist")), ItExpr.IsAny<CancellationToken>())
                 .ReturnsAsync(new HttpResponseMessage {
                     StatusCode = HttpStatusCode.OK,
                     Content = new StringContent(File.ReadAllText("TestData/ZN-Releases.json"))
                 });
             
             handler.Protected()
-                .Setup<Task<HttpResponseMessage>>("SendAsync",  ItExpr.Is<HttpRequestMessage>(m => m.RequestUri.AbsoluteUri.EndsWith("recordings")), ItExpr.IsAny<CancellationToken>())
+                .Setup<Task<HttpResponseMessage>>("SendAsync",  ItExpr.Is<HttpRequestMessage>(m => m.RequestUri.AbsoluteUri.Contains("track/release")), ItExpr.IsAny<CancellationToken>())
                 .ReturnsAsync(new HttpResponseMessage {
                     StatusCode = HttpStatusCode.OK,
                     Content = new StringContent(File.ReadAllText("TestData/ZN-Release-Recordings.json"))
