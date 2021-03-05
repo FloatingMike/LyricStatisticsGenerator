@@ -50,7 +50,7 @@ namespace AireLogicTest.LyricStatistics.Tests
                 });
             
             handler.Protected()
-                .Setup<Task<HttpResponseMessage>>("SendAsync",  ItExpr.Is<HttpRequestMessage>(m => m.RequestUri.AbsoluteUri.Contains("track/release")), ItExpr.IsAny<CancellationToken>())
+                .Setup<Task<HttpResponseMessage>>("SendAsync",  ItExpr.Is<HttpRequestMessage>(m => m.RequestUri.AbsoluteUri.Contains("inc=recordings")), ItExpr.IsAny<CancellationToken>())
                 .ReturnsAsync(new HttpResponseMessage {
                     StatusCode = HttpStatusCode.OK,
                     Content = new StringContent(File.ReadAllText("TestData/ZN-Release-Recordings.json"))
