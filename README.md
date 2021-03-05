@@ -6,13 +6,13 @@
   <p align="center">
     Getting you the lyric statistics you really need... eventually.
     <br />
-    <a href="https://github.com/MikeVerius/Aire"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/FloatingMike/LyricStatisticsGenerator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/MikeVerius/Aire/issues">Report Bug</a>
+    <a href="https://github.com/FloatingMike/LyricStatisticsGenerator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/MikeVerius/Aire/issues">Request Feature</a>
+    <a href="https://github.com/FloatingMike/LyricStatisticsGenerator/issues">Request Feature</a>
   </p>
 </p>
 
@@ -69,7 +69,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/MikeVerius/Aire.git
+   git clone https://github.com/FloatingMike/LyricStatisticsGenerator.git
    ```
 2. Run the tests
    ```sh
@@ -98,7 +98,7 @@ To get a local copy up and running follow these simple steps.
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/MikeVerius/Aire/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/FloatingMike/LyricStatisticsGenerator/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -121,6 +121,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Michael Hardman - [@MikeDoesCode](https://twitter.com/MikeDoesCode) - Mike.Hardman.Work@gmail.com
 
-Project Link: [https://github.com/MikeVerius/Aire](https://github.com/MikeVerius/Aire)
-
-[linkedin-url]: https://linkedin.com/in/MikeVerius
+Project Link: [https://github.com/FloatingMike/LyricStatisticsGenerator](https://github.com/FloatingMike/LyricStatisticsGenerator)
